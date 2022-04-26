@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav {
+    background-color: #1f1f1f;
+    height: 90px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.nav-logo {
+    width: 50px;
+    margin: 30px;
+
+
+}

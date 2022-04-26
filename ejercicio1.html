@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>MozzaBar</title>
+  </head>
+  <body>
+    <header id="home">
+      <!-- parte superior página web -->
+      <nav>
+        <img src="./img MB/mozzabar2.png" alt="logo" class="nav-logo"/>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#concepto">Concepto</a>
+        </li>
+        <li>
+          <a href="#fotos">Fotos</a>
+        </li>
+        <li>
+          <a href="#blog">Blog</a>
+        </li>
+        <li>
+          <a href="#contacto">Contacto</a>
+        </li>
+      </nav>
+
+      <h1>Descubre Mozza Bar</h1>
+      <h2>We are open</h2>
+      <img src="./img MB/mozzabar3.jpeg" alt="foto-principal" width="300px" />
+      <!-- foto de fondo en la parte principal de la web -->
+    </header>
+    <main>
+      <section id="Concepto">
+        <h3>Concepto</h3>
+        <p>
+          Mozza Bar es un fantástico resturante de cocina internacional ubicado
+          en el exclusivo barrio de salamanca. Distribuido en una única planta y
+          una estupenda terraza, destacada por su decoración urbana con toques
+          rústicos, que dotan al local de un ambiente especial y acogedor
+        </p>
+      </section>
+      <section id="Fotos"></section>
+      <section id="CARTA">
+        <h3>Carta</h3>
+      </section>
+      <section id="reservas">
+        <h3>RESERVAS</h3>
+        <form action="https://reqres.in/api/users" method="post">
+          <label for="people">Personas</label>
+          <input type="text" name="clients_number" id="people" required />
+
+          <label for="time">Hora</label>
+          <input type="text" name="booking_time" id="time" required />
+
+          <label for="table">Tipo de mesa</label>
+          <input
+            type="text"
+            name="type_of_table"
+            id="table"
+            placeholder="Seleccione el tipo de mesa"
+          />
+
+          <button type="submit">Reservar</button>
+          <button>Lista de espera</button>
+          <button>Solicitud de grupo</button>
+        </form>
+      </section>
+
+      <section id="Blog">
+        <h3>BLOG</h3>
+        <!-- Varias entradas -->
+      </section>
+
+      <section id="Contacto">
+        <h3>Ven cuando quieras</h3>
+        <!-- dirección,nº de telefono y email -->
+      </section>
+    </main>
+    <footer>
+      <!-- Copyrigth, enlaces, horarios y contacto -->
+    </footer>
+  </body>
+</html>
